@@ -6,7 +6,6 @@ let buscarAsc = buscar.sort(function (a, b) {
 
 let repetidos = [];
 
-let contar = repetidos.length;
 for (let i = 0; i < buscar.length; i++) {
 	for (let j = i + 1; j < buscar.length; j++) {
 		if (buscar[i] === buscar[j]) {
